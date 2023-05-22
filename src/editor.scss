@@ -1,0 +1,10 @@
+.uncommon-page-nav {
+  position: relative;
+  left: 0;
+  padding: var(--wp--preset--spacing--outer);
+  background-color: var(--wp--preset--color--pigment-purple);
+
+  & h3 {
+    font-size: var(--wp--preset--font-size--body-l)!important;
+  }
+}
