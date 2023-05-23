@@ -4,7 +4,8 @@
   padding-bottom: var(--wp--preset--spacing--outer);
   left: var(--wp--preset--spacing--outer);
   width: calc(100% - var(--wp--preset--spacing--outer) * 2);
-  display: flex;
+  display: inline-flex;
+  max-width: fit-content!important;
   flex-direction: column;
   align-items: flex-start;
   gap: .25em;
