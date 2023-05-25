@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function() {
     });
   }, {
     //options
-    threshold: 0.5
+    threshold: 0.1
   })
   //tell the observer which elements to track
   targets.forEach((target) => {

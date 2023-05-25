@@ -1,5 +1,6 @@
 .uncommon-page-nav {
   position: sticky;
+  z-index: 2;
   bottom: 0;
   padding-bottom: var(--wp--preset--spacing--outer);
   left: var(--wp--preset--spacing--outer);
@@ -10,6 +11,10 @@
   align-items: flex-start;
   gap: .25em;
   font-size: var(--wp--preset--font-size--body-xs);
+
+  @media screen and (max-width: 599px) {
+    display: none;  
+  }
 
   & a {
     display: inline-block;
