@@ -5,8 +5,8 @@
 	"version": "0.1.0",
 	"title": "Uncommon Page Nav",
 	"category": "widgets",
-	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"icon": "welcome-widgets-menus",
+	"description": "On-Page Navigation between page sections.",
 	"supports": {
 		"html": false
 	},
